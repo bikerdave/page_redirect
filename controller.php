@@ -19,7 +19,7 @@ class Controller extends \Concrete\Core\Package\Package {
 
 	protected $pkgHandle = 'page_redirect';
 	protected $appVersionRequired = '5.7.1';
-	protected $pkgVersion = '2.0';
+	protected $pkgVersion = '2.1';
 	
 	public function getPackageDescription() {
 		return t("Adds a page attribute that allows you to specify a page to redirect to.");
